@@ -1,0 +1,8 @@
+class Potato:
+    def __init__(self, species_name, size, price):
+        self.species_name = species_name
+        self.size = size
+        self.price = price
+
+    def count_price(self, quantity):
+        return self.price * quantity
